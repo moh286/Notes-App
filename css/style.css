@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+}
+
+/* container */
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* title */
+h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* input + button */
+input {
+  padding: 10px;
+  width: 70%;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #000;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
+
+/* search */
+#search {
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* notes container */
+#notes {
+  margin-top: 20px;
+}
+
+/* note */
+.note {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.note:hover {
+  transform: scale(1.02);
+}
+
+/* text */
+.note p {
+  margin: 0;
+  cursor: pointer;
+}
+
+/* delete button */
+.delete {
+  background: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.delete:hover {
+  background: black;
+}
